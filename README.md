@@ -1,0 +1,4 @@
+- Run terraform
+- git clone https://github.com/sjiveson/nfs-server-alpine
+- substitute Dockerfile FROM with "FROM arm32v6/alpine:3.11.3" (for older raspberry pi running arm v6)
+- start NFS server with ./nfs-container-start.sh
